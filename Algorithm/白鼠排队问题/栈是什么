@@ -1,0 +1,32 @@
+# 栈是什么
+
+## Definition
+
+栈是一种后存先取的存储结构
+
+## Function
+
+栈的变量声明：InitStack（）
+
+栈的元素存入：Push（）
+
+栈的元素取出：Pop（）
+
+## Example
+
+十进制转八进制
+
+void conversion(){
+  InitStack(S);
+  scanf("%d",N);
+  while(N){
+    Push(S,N % 8);
+    N = N/8;
+  }
+  while(!StackEmpty(S)){
+    Pop(S,e);
+    printf("%d",e);
+  }
+}
+
+（为什么我的格式里面没有header，我感到困惑）
