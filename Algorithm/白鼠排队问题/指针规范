@@ -1,0 +1,19 @@
+# 何为指针
+
+## Definition
+
+指针就是元素的存储地址
+
+## Example
+
+#include <stdio.h>
+int main()
+{
+  int a = 10;
+  int *p;
+  p = &a;
+  printf("%d",*p);
+  
+  getchar();getchar();
+  return 0;
+}
