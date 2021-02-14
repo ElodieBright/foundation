@@ -1,0 +1,23 @@
+# Initialize a linked list
+
+## Example
+
+struct node
+{
+  int data;
+  struct node *next;
+}
+
+struct node *head;
+head = NULL;//头指针初始为空
+
+struct node *p;
+//动态申请一个空间，用来存放一个结点，并用临时指针p指向这个结点
+p = (struct node *)malloc(sizeof(sizeof(struct node));
+
+scanf("%d",&a);
+p->data=a;//将数据存储到当前结点的data域中
+p->next=NULL;//设置当前结点的后继指指向空，也就是当前结点的下一个结点为空
+
+//这里p是一个指针，所以不能使用.号访问内部成员，而要用->
+//尾部结点*next指向空，方便以后从头遍历整个链表
